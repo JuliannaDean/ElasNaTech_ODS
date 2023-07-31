@@ -3,7 +3,7 @@ html, body, head{
 }
 
 #imagem_fundo{
-    background: url(lâmpada.jpg);
+    background: url(./lampada.jpg);
     height: 100%;
     text-align: center;
     
