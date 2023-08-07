@@ -2,10 +2,27 @@ html, body {
     margin: 0;
 }
 header{
-    background-color: #ace0d7;
-    height: 60px;
+    background-color: white;
+    height: 80px;
     width: 100%;
     position: fixed;
+    z-index: 10;
+}
+#menu{
+    float: left;
+    margin-left: 5%;
+    list-style:none;
+    margin-top: 0px;
+}
+li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+    font-size: large;
+    
+    
+}
+li:hover{
+    background-color:#ace0d7;
 }
 #imagem_fundo {
     background: url("fotodepessoas.avif");
@@ -71,4 +88,8 @@ section {
 }
 #sobre{
     width: 100%;
+}
+footer{
+    background-color: #ace0d7;
+    float: left;
 }
