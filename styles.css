@@ -1,24 +1,74 @@
-html, body, head{
+html, body {
     margin: 0;
 }
-
-#imagem_fundo{
-    background: url(./lampada.jpg);
+header{
+    background-color: #ace0d7;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+#imagem_fundo {
+    background: url("fotodepessoas.avif");
     height: 100%;
     text-align: center;
+    background-size:auto;   
+}
+#titulo {
+    color: rgb(255, 255, 255);
+    padding-top: 20%;
+    font-size: 50px;
+    line-height: 0.6;
+    text-shadow: 1px 1px black;
     
 }
-#titulo{
-    color: white;
-    padding-top: 5%;
+#subtitulo {
+    color: rgb(255, 251, 251);
+    margin-left: 20%;
+    margin-right: 20%;
+    text-shadow: 1px 1px black;
 }
-#subtitulo{
+#acao {
     color: white;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-#acao{
-    color: white;
-    border: 1px white solid;
     padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    
+}
+.icone {
+    width: 80px;
+    
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: rgb(245, 245, 245);
+ }   
+    
+.imagem_pessoas {
+    width: 50%;
+}
+.coluna {
+    float:left;
+    position:relative;
+    width: 0 5%;
+    
+}
+.dois{
+    width: 45%;
+}
+.tres{
+    width: 33%; 
+
+ 
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+#sobre{
+    width: 100%;
 }
