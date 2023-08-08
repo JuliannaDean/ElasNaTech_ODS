@@ -7,6 +7,7 @@ header{
     width: 100%;
     position: fixed;
     z-index: 10;
+    top:0;
 }
 #menu{
     float: left;
@@ -22,18 +23,20 @@ li{
     
 }
 li:hover{
-    background-color:#ace0d7;
+    color:#ace0d7;
+    transform: scale(1px);
 }
 #imagem_fundo {
-    background: url("educacao.jpeg")
+    background-image: url("educacao.jpeg");
     height: 100%;
     text-align: center;
-    background-size:auto;   
+    background-size:cover;
+    
 }
 #titulo {
     color: rgb(255, 255, 255);
-    padding-top: 20%;
-    font-size: 50px;
+    padding-top: 35%;
+    font-size: 55px;
     line-height: 0.6;
     text-shadow: 1px 1px black;
     
@@ -49,6 +52,8 @@ li:hover{
     padding: 10px 20px 10px 20px;
     text-align: center;
     text-shadow: 1px 1px black;
+    border: double;
+    
     
 }
 .icone {
@@ -60,7 +65,7 @@ section {
     float: left;
 }
 .destaque {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(243, 240, 240);
  }   
     
 .imagem_pessoas {
@@ -73,7 +78,7 @@ section {
     
 }
 .dois{
-    width: 45%;
+    width: 50%;
 }
 .tres{
     width: 33%; 
@@ -82,9 +87,11 @@ section {
 }
 .justificado {
     text-align: justify;
+    padding: 10px;
 }
 .centralizado {
     text-align: center;
+    
 }
 #sobre{
     width: 100%;
